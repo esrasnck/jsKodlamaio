@@ -1,0 +1,16 @@
+npm run dev => lite server'ı çalıştır demek.
+
+js dosya bazlı bir program. ben  bir paketi kullanacaksam, onu olduğu gibi bilgisayarıma indiriyor olmam gerekiyor.
+Bunlar da o kadar sayıda dosya ki, bunu github'a atamıyoruz.(node_modules özellikle.)
+
+gitignore 'da node_modules'ı atma diyoruz. O yüzden github'dan bir proje indereceksek, 
+ilk başta npm install dememiz gerekiyor.
+
+browsersync => kaydettiğinde otomatik olarak browser'a düşüyor.
+tekrar browser'ı açıp kapamaya gerek kalmıyor.
+
+transpiler=> ne demek araştır.
+https://devopedia.org/transpiler
+
+ecmascript = geliştirilmiş javascript
+saf js'i çeviren çeşitli transpilerlar var. babel, typescript gibi.
