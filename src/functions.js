@@ -1,6 +1,6 @@
 function addToCart(productName="Elma",quantity){
 
-console.log("sepete eklendi. ürün : " + productName +" adet : " + quantity)
+console.log("sepete eklendi. ürün : " + productName +" adet : " + quantity  )
 }
 
 addToCart("esra",10)
@@ -24,7 +24,8 @@ sayHello2();
 
 function addToCart2(productName,quantity,unitPrice) {
     // ürünü sepete eklerken benim birden fazla bilgiye ihtiyacım var.
-    // birden fazla parametreyi ayrı ayrı göndermek doğru bir kullanım değildir. bu tip durumlar için bizler obje oluştururuz.
+    // birden fazla parametreyi ayrı ayrı göndermek doğru bir kullanım değildir.
+    // bu tip durumlar için bizler obje oluştururuz.
 }
 
 // encapsulation
@@ -116,4 +117,3 @@ let newProductName, newUnitPrice, newQuantity
  console.log(newUnitPrice)
  console.log(newQuantity)
 
- 
