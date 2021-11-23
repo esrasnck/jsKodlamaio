@@ -14,3 +14,8 @@ https://devopedia.org/transpiler
 
 ecmascript = geliştirilmiş javascript
 saf js'i çeviren çeşitli transpilerlar var. babel, typescript gibi.
+
+
+// export = public gibi => dışardan import edilebilir.
+// default = js dosya bazlı olduğu için, user service 'i import ettiğimde 
+// => default olarak bunu import et demek.
